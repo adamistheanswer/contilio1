@@ -1,0 +1,16 @@
+.attributes-table {
+  max-width: 200px;
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+  table-layout: fixed;
+}
+
+@media (max-width: 500px) {
+  .attributes-table {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 30px;
+    text-align: center;
+  }
+}

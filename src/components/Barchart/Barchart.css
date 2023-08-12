@@ -1,0 +1,25 @@
+.bar-chart {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bar {
+  background-color: #00b9ff;
+  width: 20%;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .bar-chart {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+  }
+}
